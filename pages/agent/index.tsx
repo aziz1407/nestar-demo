@@ -2,10 +2,10 @@ import withLayoutBasic from "@/libs/components/layout/LayoutBasic";
 import { Container, Stack } from "@mui/material";
 import { NextPage } from "next";
 
-const Community: NextPage = () => {
+const Agents: NextPage = () => {
     return (
-      <Container>COMMUNITY</Container>
+      <Container>AGENTS</Container>
     )
 }
 
-export default withLayoutBasic(Community);
+export default withLayoutBasic(Agents);
