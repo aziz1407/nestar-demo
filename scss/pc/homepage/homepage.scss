@@ -52,7 +52,7 @@
                 display: flex;
                 flex-direction: row;
                 align-items: center;
-                .swiper-pagination-bullet.swiper-pagination-bullet-active {
+                .swiper-pagination-bullet.swiper-pagination {
                   background: #000000;
                 }
                 .swiper-trend-next {
@@ -575,7 +575,7 @@
             display: flex;
             flex-direction: row;
             align-items: center;
-            .swiper-pagination-bullet.swiper-pagi {
+            .swiper-pagination-bullet.swiper-pagination-bullet-active {
               background: #000000;
             }
             .swiper-trend-next {
@@ -653,7 +653,7 @@
                     display: flex;
                     flex-direction: row;
                     align-items: center;
-                    .swiper-pagination-bullet.swiper-pagination {
+                    .swiper-pagination-bullet.swiper-pagi {
                       background: #000000;
                     }
                     .swiper-trend-next {
@@ -926,7 +926,7 @@
                     display: flex;
                     flex-direction: row;
                     align-items: center;
-                    .swiper-pagination-bullet.swiper-pagination {
+                    .swiper-pagination-bullet.swiper-pagi {
                       background: #000000;
                     }
                     .swiper-trend-next {
@@ -1031,7 +1031,7 @@
                         height: 280px;
                         display: flex;
                         flex-direction: row;
-                        .top-agents-slide {
+                        .top-agents-side {
                             width: auto;
                             height: auto;
                             display: flex;
@@ -1069,10 +1069,10 @@
                         span {
                             color: #181a20;
                             font-family: $font;
-                            font-size: 15px;
+                            font-size: 13px;
                             font-style: normal;
                             font-weight: 400;
-                            line-height: 28px;
+                            line-height: normal;
                         }
                     }
                 }
